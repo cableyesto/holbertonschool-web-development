@@ -4,4 +4,3 @@ The purpose is to focus on the HTML structure. No stylesheet or CSS will be used
 <br />
 <br />
 ![alt text](https://github.com/cableyesto/holbertonschool-web-development/blob/main/html_advanced/logo_footer.png?raw=true)
-
