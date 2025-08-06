@@ -1,4 +1,6 @@
+/* The width is fixed in the body so that we follow the Figma design */
 body {
+    width: 1440px;
     margin: 0px;
     background-image: url("assets/background.png");
     background-repeat: no-repeat;
@@ -6,8 +8,8 @@ body {
     font-family: "Source Sans Pro";
 }
 
-/* The header and first section */
-
+/* Task 2. Header and Banner */
+/* The navbar */
 nav {
     padding-top: 35px;
     padding-left: 172px;
@@ -18,7 +20,6 @@ nav {
 nav a {
     color: inherit;
     text-decoration: none;
-    /*font-weight: bold;*/
     font-size: 12px;
     font-family: "Source Sans Pro";
 }
@@ -32,54 +33,75 @@ nav a {
     padding-left: 40px;
 }
 
+/* The banner */
+#banner {
+    height: 1029px;
+}
+
 #banner h1 {
-    font-size: 120px;
-    padding-left: 377px;
     margin: 0px;
-    padding-top: 100px;
-    /*
-    display: flex;
-    justify-content: center;
-    */
+    padding-top: 155px;
+    font-size: 120px;
+    text-align: center;
 }
 
 .sub-titles {
-    padding-left: 640px;
+    margin: 0px;
+    padding-bottom: 40px;
+    text-align: center;
     font-size: 16px;
     font-weight: bold;
 }
 
 .sub-titles-space {
-    padding-left: 20px;
+    padding-left: 70px;
 }
 
 .register-button {
-    padding: 10px 20px;
+    padding: 15px 25px;
     color: white;
-    background-color: #C271FF; /* Bootstrap blue */
+    background-color: #C271FF;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     font-family: "Source Sans Pro";
-    font-weight: 600; /* semibold */
+    font-weight: 400;
     font-size: 14px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
     margin-left: 639px;
 }
 
 /* Learn from the pros */
-
-#pros_pannel h2 {
-    padding-left: 604px;
+#pros_pannel > h2 {
+    margin: 0px;
+    padding-top: 150px;
+    padding-bottom: 90px;
+    text-align: center;
     font-family: "Source Sans Pro";
     font-weight: 200;
     font-size: 32px;
 }
 
-#pros_pannel span {
+.pros-title {
     font-size: 32px;
     font-weight: 700;
-    color: #C271FF; /* Bootstrap blue */
+    color: #C271FF;
 }
 
 /* Pros section */
+.pros-members {
+    display: flex;
+    padding-left: 217px;
+    text-align: center;
+}
+
+.pros-members-space {
+    padding-left: 120px;
+}
+
+.pros-members-text {
+    font-size: 16px;
+    font-weight: 100;
+    color: white;
+    font-style: italic;
+}
