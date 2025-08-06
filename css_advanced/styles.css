@@ -105,3 +105,35 @@ nav a {
     color: white;
     font-style: italic;
 }
+
+/* Task 3. Quotes */
+#quote_section {
+    height: 392px;
+    background-color: #C271FF;
+    color: white;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.quote-text > * {
+    margin: 0px;
+    padding-left: 40px;
+}
+
+.quote-container {
+    display: flex;
+    padding-left: 259px;
+    padding-top: 108px;
+}
+
+.quote-person {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.quote-description {
+    font-style: italic;
+    padding-left: 40px;
+    font-weight: 100;
+}
