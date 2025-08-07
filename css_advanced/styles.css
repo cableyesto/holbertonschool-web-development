@@ -143,7 +143,6 @@ nav a {
 #videos_list_section {
     color: black;
     height: 624px;
-    /* padding-bottom: 87px;  */
 }
 
 #videos_list_section > h1 {
@@ -163,11 +162,13 @@ nav a {
     text-align: center;
 }
 
+/* Video list container */
 #videos_list_container {
     display: flex;
     padding-left: 164px;
 }
 
+/* One video list container */
 .video-list-container {
     width: 255px;
 }
