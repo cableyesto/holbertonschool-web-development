@@ -142,6 +142,8 @@ nav a {
 /* Video list section */
 #videos_list_section {
     color: black;
+    height: 624px;
+    /* padding-bottom: 87px;  */
 }
 
 #videos_list_section > h1 {
@@ -163,12 +165,11 @@ nav a {
 
 #videos_list_container {
     display: flex;
+    padding-left: 164px;
 }
 
 .video-list-container {
     width: 255px;
-    padding-left: 164px;
-
 }
 
 .video-list-space {
@@ -214,6 +215,7 @@ nav a {
     font-weight: 400;
     color: #C271FF;
     padding-left: 13px;
+    margin: 0px;
 }
 
 .video-list-rating {
