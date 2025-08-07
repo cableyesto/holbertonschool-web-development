@@ -137,3 +137,104 @@ nav a {
     padding-left: 40px;
     font-weight: 100;
 }
+
+/* 4. Videos list */
+/* Video list section */
+#videos_list_section {
+    color: black;
+}
+
+#videos_list_section > h1 {
+    margin: 0px;
+    padding-top: 87px;
+    padding-bottom: 75px;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-weight: 200;
+    font-size: 32px;
+}
+
+.videos-list-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #C271FF;
+    text-align: center;
+}
+
+#videos_list_container {
+    display: flex;
+}
+
+.video-list-container {
+    width: 255px;
+    padding-left: 164px;
+
+}
+
+.video-list-space {
+    padding-left: 31px;
+}
+
+.video-list-pictures {
+    position: relative;
+}
+
+.video-list-front {
+    position: absolute;
+    top: 45px;
+    left: 95px;
+}
+
+.video-list-container > h2 {
+    font-size: 16px;
+    font-weight: 800;
+    padding-left: 13px;
+}
+
+.video-list-text {
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 13px;
+}
+
+.video-list-reviewer {
+    display: flex;
+    align-items: center;
+    padding-left: 13px;
+}
+
+.video-list-reviewer {
+    display: flex;
+    align-items: center;
+    padding-left: 13px;
+}
+
+.video-list-reviewer > h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #C271FF;
+    padding-left: 13px;
+}
+
+.video-list-rating {
+    display: flex;
+    align-items: center;
+    padding-left: 13px;
+}
+
+.video-list-time {
+    font-size: 14px;
+    font-weight: 400;
+    color: #C271FF;
+    padding-left: 79px;
+}
+
+.video-list-rating {
+    display: flex;
+    align-items: center;
+    padding-left: 13px;
+}
+
+.video-list-time {
+    padding-left: 79px;
+}
