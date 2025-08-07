@@ -197,6 +197,7 @@ nav a {
     font-size: 14px;
     font-weight: 300;
     padding-left: 13px;
+    line-height: 1.8;
 }
 
 .video-list-reviewer {
@@ -240,4 +241,69 @@ nav a {
 
 .video-list-time {
     padding-left: 79px;
+}
+
+/* 5. Membership */
+/* Membership section */
+#membership_section {
+    height: 502px;
+    background-color: #071629;
+}
+
+/* Title */
+#membership_section > h1 {
+    margin: 0px;
+    padding-top: 70px;
+    padding-bottom: 58px;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-weight: 200;
+    font-size: 32px;
+}
+
+.membership-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #C271FF;
+    text-align: center;
+}
+
+.membership-container {
+    display: flex;
+    padding-left: 164px;
+}
+
+.membership-board {
+    width: 257px;
+    text-align: center;
+}
+
+.membership-board-space {
+    padding-left: 27px;
+}
+
+.membership-board > h2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.membership-board > p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 1.8;
+}
+
+.membership-button {
+    padding: 15px 25px;
+    color: white;
+    background-color: #C271FF;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    font-size: 14px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    margin-top: 85px;
+    margin-left: 639px;
 }
