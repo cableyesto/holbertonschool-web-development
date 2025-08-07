@@ -307,3 +307,50 @@ nav a {
     margin-top: 85px;
     margin-left: 639px;
 }
+
+/* 6. FAQ */
+#faq_section {
+    color: black;
+}
+
+#faq_section > h1 {
+    margin: 0px;
+    padding-top: 67px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 200;
+    padding-left: 10px;
+    padding-bottom: 74px;
+}
+
+.faq-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 84px;
+}
+
+.faq-item {
+    width: 350px;
+}
+
+.faq-item-space-bottom {
+    padding-bottom: 74px;
+}
+
+.faq-item-space-left {
+    padding-left: 220px;
+}
+
+.faq-item > h2 {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.faq-item > p {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1.8;
+}
