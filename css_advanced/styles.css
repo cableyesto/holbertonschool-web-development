@@ -354,3 +354,30 @@ nav a {
     font-weight: 200;
     line-height: 1.8;
 }
+
+/* 7. Footer */
+footer {
+    height: 249px;
+    background-color: #071629;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    padding-top: 95px;
+}
+
+.footer-social-space {
+    padding-left: 736px;
+}
+
+.footer-trademark {
+    text-align: center;
+    padding-top: 70px;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.social-icons-space {
+    padding-left: 20px;
+}
