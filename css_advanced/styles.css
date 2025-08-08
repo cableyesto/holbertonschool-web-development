@@ -371,6 +371,11 @@ footer {
     padding-left: 736px;
 }
 
+.footer-social-space > a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .footer-trademark {
     text-align: center;
     padding-top: 70px;
